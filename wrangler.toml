@@ -1,0 +1,9 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "zh"
+main = "src/index.js"
+compatibility_date = "2024-07-24"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "SUBLINK_KV", id = "09702cb20f6541d187c2f0c1b27e9953" }
+]
